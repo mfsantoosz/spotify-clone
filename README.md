@@ -1,19 +1,20 @@
-## Spotify Clone
+# Spotify Clone 🎧
 
-🎵 **Bem-vindo ao meu projeto de clone do Spotify!** 🎵
+Este é um projeto que desenvolvi com o objetivo de aprimorar meus conhecimentos em **ReactJS** e **TailwindCSS**, focando exclusivamente na construção da interface visual. Realizado de forma totalmente independente, sem o auxílio de tutoriais ou vídeos externos, este clone do Spotify recria a aparência da plataforma, proporcionando uma experiência visual moderna e responsiva.
 
-Este é um projeto que desenvolvi com o objetivo de **aprimorar meus conhecimentos em ReactJS e TailwindCSS**. Realizado de forma totalmente independente, sem o auxílio de tutoriais ou vídeos externos, este clone visa replicar a interface e funcionalidades do Spotify, proporcionando uma experiência visual e interativa semelhante à plataforma original.
+## 🚀 O que você encontrará aqui:
 
-### 🚀 **O que você encontrará aqui:**
-- **Interface Moderna:** Utilizando TailwindCSS para garantir um design limpo e responsivo.
-- **Funcionalidades Interativas:** Implementação de recursos semelhantes aos do Spotify, como controle de mídia e navegação intuitiva.
-- **Desenvolvimento Independente:** Criação do projeto do início ao fim, desafiando-me a resolver problemas e consolidar habilidades em ReactJS.
+- **Interface Moderna:** Utilizando TailwindCSS para garantir um design limpo, responsivo e semelhante ao Spotify.
+- **Apenas Frontend:** O foco deste projeto está exclusivamente no desenvolvimento da interface, sem integração de funcionalidades como controle de mídia ou navegação.
+- **Desenvolvimento Independente:** O projeto foi criado do início ao fim, desafiando-me a resolver problemas e consolidar habilidades visuais e de layout em ReactJS.
 
-### 💡 **Por que este projeto é especial?**
+## 💡 Por que este projeto é especial?
+
 - **Desenvolvimento Solo:** Uma demonstração clara da minha capacidade de enfrentar desafios técnicos e aprender de forma autônoma.
-- **Interface e Experiência:** Foco em recriar a experiência de usuário do Spotify, com atenção a detalhes visuais e funcionais.
+- **Interface e Experiência:** Foco em recriar a estética do Spotify, com atenção a detalhes visuais e interativos, mas sem a funcionalidade de back-end.
 
-### 🛠️ **Tecnologias Utilizadas:**
+## 🛠️ Tecnologias Utilizadas:
+
 - **ReactJS**
 - **TailwindCSS**
 
