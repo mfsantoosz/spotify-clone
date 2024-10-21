@@ -1,6 +1,6 @@
-import { SpotifyPlaylistMocks } from "../mocks/spotify-playlist-mocks"
+import { SpotifyPlaylistMocks } from "../SpotifyPlaylistMocks"
 
-export const SpotifyPlaylistMocksMap = () => {
+export const SpotifyPlaylistMap = () => {
   return (
     <>
       <div className="flex justify-between items-center md:mt-6">

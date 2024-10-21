@@ -1,6 +1,6 @@
-import { FeatureChartsMocks } from "../mocks/feature-charts-mocks"
+import { FeatureChartsMocks } from "../FeatureChartsMocks"
 
-export const FeatureChartsMocksMap = () => {
+export const FeatureChartsMap = () => {
   return (
     <>
       <div className="flex justify-between items-center md:mt-6">

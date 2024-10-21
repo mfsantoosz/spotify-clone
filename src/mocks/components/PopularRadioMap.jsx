@@ -1,6 +1,6 @@
-import { PopularRadioMocks } from "../mocks/radio-mocks"
+import { PopularRadioMocks } from "../PopularRadioMocks"
 
-export const PopularRadioMocksMap = () => {
+export const PopularRadioMap = () => {
   return (
     <>
       <div className="flex justify-between items-center md:mt-6">

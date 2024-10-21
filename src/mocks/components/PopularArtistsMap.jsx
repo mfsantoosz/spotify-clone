@@ -1,6 +1,6 @@
-import { PopularArtistsMocks } from "../mocks/artist-mocks"
+import { PopularArtistsMocks } from "../PopularArtistsMocks"
 
-export const PopularArtistsMocksMap = () => {
+export const PopularArtistsMap = () => {
   return (
     <>
       <div className="flex justify-between items-center md:mt-2">
