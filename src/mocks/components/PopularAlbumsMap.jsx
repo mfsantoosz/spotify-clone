@@ -11,7 +11,7 @@ export const PopularAlbumsMap = () => {
           Show all
         </span>
       </div>
-      <div className="flex items-center overflow-x-auto whitespace-nowrap lg:overflow-hidden">
+      <div className="flex items-center overflow-x-auto lg:overflow-hidden">
         {PopularAlbumsMocks.map((item) => (
           <div
             key={item.id}

@@ -11,9 +11,9 @@ export const SpotifyPlaylistMap = () => {
           Show all
         </span>
       </div>
-      <div className="flex items-center overflow-x-auto whitespace-nowrap lg:overflow-hidden">
+      <div className="flex items-center overflow-x-auto lg:overflow-hidden">
         {SpotifyPlaylistMocks.map((item) => (
-          <div className="flex flex-col cursor-pointer rounded-lg p-2 transition duration-300 h-60 hover:bg-[#222] lg:h-72 lg:p-3">
+          <div className="flex flex-col cursor-pointer rounded-lg p-2 transition duration-300 h-60 hover:bg-[#222] lg:h-72 lg:p-3" key={item.id}>
             <div className="w-40 h-40 lg:w-48 lg:h-48">
               <img
                 src={item.playlistCover}

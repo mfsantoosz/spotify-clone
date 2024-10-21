@@ -11,7 +11,7 @@ export const PopularRadioMap = () => {
           Show all
         </span>
       </div>
-      <div className="flex items-center overflow-x-auto whitespace-nowrap lg:overflow-hidden">
+      <div className="flex items-center overflow-x-auto lg:overflow-hidden">
         {PopularRadioMocks.map((item) => (
           <div
             key={item.id}
