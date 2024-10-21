@@ -1,23 +1,23 @@
-import { PopularArtistsMocksMap } from "../components/PopularArtistsMocksMap";
-import { PopularAlbumsMocksMap } from "../components/PopularAlbumsMocksMap";
-import { PopularRadioMocksMap } from "../components/PopularRadioMocksMap";
-import { FeatureChartsMocksMap } from "../components/FeatureChartsMocksMap";
-import { SpotifyPlaylistMocksMap } from "../components/SpotifyPlaylistMocksMap";
-import { SpotifyFooterLinks, SpotifyInfos } from "../components/SpotifyFooterLinks";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { PopularArtistsMap } from "../mocks/components/PopularArtistsMap"
+import { PopularAlbumsMap } from "../mocks/components/PopularAlbumsMap"
+import { PopularRadioMap } from "../mocks/components/PopularRadioMap"
+import { FeatureChartsMap } from "../mocks/components/FeatureChartsMap"
+import { SpotifyPlaylistMap } from "../mocks/components/SpotifyPlaylistMap"
+import { SpotifyFooterLinks } from "../components/SpotifyFooterLinks"
+import { Instagram, Twitter, Facebook } from "lucide-react"
 
-function HomeSection() {
+export function HomeSection() {
   return (
     <>
       <div
         className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-hidden max-h-[calc(100vh-100px)] md:bg-gradient-to-t md:from-[#121212] md:to-[#222] md:rounded-lg md:py-1"
         id="#home-section"
       >
-        <PopularArtistsMocksMap />
-        <PopularAlbumsMocksMap />
-        <PopularRadioMocksMap />
-        <FeatureChartsMocksMap />
-        <SpotifyPlaylistMocksMap />
+        <PopularArtistsMap />
+        <PopularAlbumsMap />
+        <PopularRadioMap />
+        <FeatureChartsMap />
+        <SpotifyPlaylistMap />
         <div className="flex flex-col gap-8 px-2 py-8  md:flex-row md:justify-between md:py-10 md:px-3">
           <SpotifyFooterLinks
             title="Company"
