@@ -11,7 +11,7 @@ function HomeSection() {
     <>
       <div
         className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-hidden max-h-[calc(100vh-100px)] md:bg-gradient-to-t md:from-[#121212] md:to-[#222] md:rounded-lg md:py-1"
-        id="section-with-scrollbar"
+        id="#home-section"
       >
         <PopularArtistsMocksMap />
         <PopularAlbumsMocksMap />
