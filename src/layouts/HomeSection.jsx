@@ -3,7 +3,7 @@ import { PopularAlbumsMocksMap } from "../components/PopularAlbumsMocksMap";
 import { PopularRadioMocksMap } from "../components/PopularRadioMocksMap";
 import { FeatureChartsMocksMap } from "../components/FeatureChartsMocksMap";
 import { SpotifyPlaylistMocksMap } from "../components/SpotifyPlaylistMocksMap";
-import { SpotifyInfos } from "../components/SpotifyInfos";
+import { SpotifyFooterLinks, SpotifyInfos } from "../components/SpotifyFooterLinks";
 import { Facebook, Instagram, Twitter } from "lucide-react";
 
 function HomeSection() {
@@ -19,13 +19,13 @@ function HomeSection() {
         <FeatureChartsMocksMap />
         <SpotifyPlaylistMocksMap />
         <div className="flex flex-col gap-8 px-2 py-8  md:flex-row md:justify-between md:py-10 md:px-3">
-          <SpotifyInfos
+          <SpotifyFooterLinks
             title="Company"
             text1="About"
             text2="Jobs"
             text3="For the Record"
           />
-          <SpotifyInfos
+          <SpotifyFooterLinks
             title="Communities"
             text1="For Artists"
             text2="Developers"
@@ -33,12 +33,12 @@ function HomeSection() {
             text4="Investors"
             text5="Vendors"
           />
-          <SpotifyInfos
+          <SpotifyFooterLinks
             title="Useful links"
             text1="Support"
             text2="Free Mobile App"
           />
-          <SpotifyInfos
+          <SpotifyFooterLinks
             title="Spotify Plans"
             text1="Premium Individual"
             text2="Premium Duo"
