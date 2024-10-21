@@ -10,14 +10,16 @@ export function HomeSection() {
   return (
     <>
       <div
-        className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-auto md:overflow-x-hidden max-h-[100vh] lg:max-h-[calc(100vh-100px)] lg:rounded-lg lg:py-1"
+        className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-hidden max-h-[100vh] lg:max-h-[calc(100vh-100px)] lg:rounded-lg lg:py-1"
         id="home-section"
       >
-        <PopularArtistsMap />
-        <PopularAlbumsMap />
-        <PopularRadioMap />
-        <FeatureChartsMap />
-        <SpotifyPlaylistMap />
+        <div className="flex flex-col">
+          <PopularArtistsMap />
+          <PopularAlbumsMap />
+          <PopularRadioMap />
+          <FeatureChartsMap />
+          <SpotifyPlaylistMap />
+        </div>
 
         <div className="flex flex-col gap-8 px-2 py-8  lg:flex-row lg:justify-between lg:py-10 lg:px-3">
           <SpotifyFooterLinks

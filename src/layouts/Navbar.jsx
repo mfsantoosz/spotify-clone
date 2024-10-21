@@ -7,7 +7,7 @@ export const Navbar = () => {
       <div className="cursor-pointer">
         <img src={SpotifyWhite} alt="Spotify White Logo" width={32} />
       </div>
-      <div className="lg:flex hidden gap-2 items-center">
+      <div className="hidden gap-2 items-center lg:flex">
         <button className="bg-[#1f1f1f] p-2 rounded-full hover:scale-105">
           <House
             size={32}
@@ -29,8 +29,8 @@ export const Navbar = () => {
           />
         </div>
       </div>
-      <div className="lg:flex items-center gap-6 hidden">
-        <button className="text-[#b3b3b3] hover:text-white hover:scale-105 font-bold">
+      <div className="items-center gap-6 hidden lg:flex">
+        <button className="text-[#b3b3b3] font-bold hover:text-white hover:scale-105">
           Sign up
         </button>
         <button className="bg-white py-3 px-7 font-bold rounded-full hover:scale-105">

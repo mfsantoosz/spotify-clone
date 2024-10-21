@@ -2,7 +2,7 @@ import { Library, Plus, Globe } from "lucide-react";
 
 export const Sidebar = () => {
   return (
-    <div className="bg-[#121212] rounded-lg max-w-[360px] w-full p-2 lg:flex flex-col hidden">
+    <div className="hidden lg:bg-[#121212] lg:rounded-lg lg:max-w-[360px] lg:w-full lg:p-2 lg:flex lg:flex-col">
       <div className="flex items-center p-4 justify-between">
         <div className="flex items-center gap-2 text-[#b3b3b3] hover:text-white cursor-pointer transition duration-300">
           <Library strokeWidth={1.8} size={24} />
