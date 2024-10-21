@@ -1,8 +1,8 @@
-import { Library, Plus, Globe } from "lucide-react"
+import { Library, Plus, Globe } from "lucide-react";
 
 export const Sidebar = () => {
   return (
-    <div className="bg-[#121212] rounded-lg max-w-[360px] w-full p-2 md:flex flex-col hidden">
+    <div className="bg-[#121212] rounded-lg max-w-[360px] w-full p-2 lg:flex flex-col hidden">
       <div className="flex items-center p-4 justify-between">
         <div className="flex items-center gap-2 text-[#b3b3b3] hover:text-white cursor-pointer transition duration-300">
           <Library strokeWidth={1.8} size={24} />
@@ -32,18 +32,22 @@ export const Sidebar = () => {
           Browse podcasts
         </button>
       </div>
-      <div className="flex flex-wrap px-6 gap-4 mb-8 mt-44">
-        <span className="text-xs text-[#b3b3b3]">Legal</span>
-        <span className="text-xs text-[#b3b3b3]">Safety & Privacy Center</span>
-        <span className="text-xs text-[#b3b3b3]">Privacy Policy</span>
-        <span className="text-xs text-[#b3b3b3]">Cookies</span>
-        <span className="text-xs text-[#b3b3b3]">About Ads</span>
-        <span className="text-xs text-[#b3b3b3]">Acessibility</span>
+      <div className="flex flex-col gap-8 mt-auto">
+        <div className="flex flex-wrap px-6 gap-3 ">
+          <span className="text-xs text-[#b3b3b3]">Legal</span>
+          <span className="text-xs text-[#b3b3b3]">
+            Safety & Privacy Center
+          </span>
+          <span className="text-xs text-[#b3b3b3]">Privacy Policy</span>
+          <span className="text-xs text-[#b3b3b3]">Cookies</span>
+          <span className="text-xs text-[#b3b3b3]">About Ads</span>
+          <span className="text-xs text-[#b3b3b3]">Acessibility</span>
+        </div>
+        <button className="max-w-24 flex gap-1.5 bg-transparent border border-[#b3b3b3] rounded-full p-1.5 font-bold text-sm text-white mx-6 mb-8 hover:scale-105 hover:border hover:border-white">
+          <Globe size={20} />
+          English
+        </button>
       </div>
-      <button className="max-w-24 flex gap-1.5 bg-transparent border border-[#b3b3b3] rounded-full p-1.5 font-bold text-sm text-white mx-6 mb-8 hover:scale-105 hover:border hover:border-white">
-        <Globe size={20} />
-        English
-      </button>
     </div>
   );
 };
