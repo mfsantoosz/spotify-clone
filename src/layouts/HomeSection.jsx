@@ -10,7 +10,7 @@ export function HomeSection() {
   return (
     <>
       <div
-        className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-hidden max-h-[100vh] lg:max-h-[calc(100vh-100px)] lg:rounded-lg lg:py-1"
+        className="bg-[#121212] px-2 py-3 flex flex-col w-full overflow-y-auto overflow-x-auto md:overflow-x-hidden max-h-[100vh] lg:max-h-[calc(100vh-100px)] lg:rounded-lg lg:py-1"
         id="home-section"
       >
         <PopularArtistsMap />

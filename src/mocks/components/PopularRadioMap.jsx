@@ -21,7 +21,7 @@ export const PopularRadioMap = () => {
               className="rounded-lg shadow-2xl shadow-black w-full h-full object-cover"   
             />
           </div>
-          <h1 className="text-white mt-2 font-medium hover:underline max-w-40 lg:hidden">
+          <h1 className="text-white mt-2 font-medium max-w-40 lg:hidden">
             {item.radioName}
           </h1>
           <span className="hidden lg:text-[#9b9b9b] lg:text-sm lg:font-semibold lg:mt-3 lg:flex lg:w-48">

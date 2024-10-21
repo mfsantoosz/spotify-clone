@@ -21,7 +21,7 @@ export const PopularAlbumsMap = () => {
               className="rounded-lg shadow-2xl shadow-black w-full h-full object-cover"   
             />
           </div>
-          <h1 className="text-white mt-2 font-medium hover:underline max-w-40 lg:max-w-48 lg:hover:no-underline">
+          <h1 className="text-white mt-2 font-medium max-w-40 lg:max-w-48 lg:hover:no-underline">
             {item.albumName}
           </h1>
           <span className="hidden lg:text-[#9b9b9b] lg:text-sm lg:font-semibold lg:mt-1 lg:flex lg:w-48">

@@ -39,10 +39,10 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center gap-4 my-2 lg:hidden">
         <Search color="#fff" size={20} />
-        <button className="bg-white px-4 py-1.5 text-sm font-bold rounded-full hover:scale-105">
+        <button className="bg-white px-4 py-1.5 text-sm font-bold rounded-full">
           Open App
         </button>
-        <Menu color="#fff" size={28} className="hover:scale-105" />
+        <Menu color="#fff" size={28} />
       </div>
     </div>
   );

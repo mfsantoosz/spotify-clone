@@ -20,7 +20,7 @@ export const PopularArtistsMap = () => {
               className="rounded-lg shadow-2xl shadow-black max-w-40 max-h-40 lg:rounded-full lg:max-w-48 lg:max-h-48 lg:object-cover"
               width={360}
             />
-            <h1 className="text-white mt-3 font-medium hover:underline max-w-40 lg:max-w-48 lg:hover:no-underline">
+            <h1 className="text-white mt-3 font-medium  max-w-40 lg:max-w-48 lg:hover:no-underline">
               {item.artistName}
             </h1>
             <span className="text-[#9b9b9b] text-sm font-semibold hidden lg:flex">
