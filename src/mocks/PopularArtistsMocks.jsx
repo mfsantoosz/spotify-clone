@@ -7,7 +7,7 @@ export const PopularArtistsMocks = [
   },
   {
     id: "2",
-    artistPhoto: "https://yt3.googleusercontent.com/RhoxNU2GcW0Zvw4kZnD9xRTjmoJFcBDvd46RwHGM-5clT_CLkUbp6OS1awXKcZoZuPy7Q7E6ZBI=s900-c-k-c0x00ffffff-no-rj",
+    artistPhoto: "https://i.scdn.co/image/ab6761610000517477937baabc49dea13c17c706",
     artistName: "Jorge & Mateus",
     description: "Artist"
   },
